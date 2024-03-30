@@ -1,5 +1,9 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: Mr. Coxall
-// Created on: Sep 2020
-// This file contains the JS functions for index.html
+function doMathClicked() {
+  // this function does basic math
+  let Mph = document.getElementById("Mph").value;
+  let Kph = Mph * 1.60;
+  let answer = Mph * 1.60;
+  
+  document.getElementById("Kph").innerHTML = Mph + " * 1.60 = " + answer.toFixed(2);
+
+}
