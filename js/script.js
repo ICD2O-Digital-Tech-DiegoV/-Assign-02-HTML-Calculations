@@ -6,7 +6,7 @@ function doMathClicked() {
   // Make sure not negative
   if (answer < 0) {
     answer = 0;
-    document.getElementById("Kph").innerHTML = "Invalid input. Ensure value is a positive number.";
+    document.getElementById("Kp").innerHTML = "Invalid input. Ensure value is a positive number.";
   }
   else {
     document.getElementById("Kph").innerHTML = "Kph = " + answer.toFixed(2);
